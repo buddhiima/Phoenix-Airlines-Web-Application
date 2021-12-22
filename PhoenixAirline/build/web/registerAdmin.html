@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h3>Administrator Registration</h3>
+        
+        <form action="./registerAdmin" method="POST" enctype="multipart/form-data">
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="adminName" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="adminEmail" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="adminGender" value="Male" /> Male
+                            <input type="radio" name="adminGender" value="Female" /> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Telephone</td>
+                        <td><input type="text" name="adminTel" value="" /></td>
+                    </tr> 
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="adminPassword" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Retype Password</td>
+                        <td><input type="password" name="retypeAdminPassword" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Profile Photo</td>
+                        <td><input type="file" name="profilePhoto" accept="image/png,image/jpeg" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Register" /></td>
+                        <td><input type="reset" value="Cancel" /></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,14 @@
+SMAP
+newjsp_jsp.java
+JSP
+*S JSP
+*F
++ 0 newjsp.jsp
+newjsp.jsp
++ 1 registerClient.jsp
+registerClient.jsp
+*L
+5,13:49
+5#1,108:62
+17#0,6:169
+*E
